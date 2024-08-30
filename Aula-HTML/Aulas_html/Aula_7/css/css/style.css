@@ -1,0 +1,29 @@
+body {
+    background: rgb(18, 81, 118)
+}
+
+h1, p {
+    color: red;
+    text-align: center;
+}
+
+h2 {
+    color: #13a3a8;
+
+}
+
+.exemplo-back {
+    height: 700px;
+    background: gray;
+    background-image: url(../img/praia.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;    
+}
+
+/* .exemplo-back { >>NÂO FUNCIONA VER ONDE ESTÁ O ERRO <<
+   height: 300px;
+   background-image: gray url("../img/praia.jpg") no-repeat center;
+   background-size: cover;
+} */
+
